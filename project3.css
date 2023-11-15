@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(https://wallpapers.com/images/hd/thermometer-indicating-fair-temperature-ju4pg41nu6gjf2wl.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+#calctemp{
+    padding: 25px 67px;
+    min-height: 270px;
+    background-color: #738ee9;
+    box-shadow: rgba(0,0,0,12) opx,1px,3px,3px,rgba(0,0,0,24) 0px,1px,2px;
+    
+}
+label{
+    font-size: 24px;
+    font-style: italic;
+    line-height: 70px;
+    font-weight: bold;
+}
+#temp{
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+#temp_diff{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size:15px;
+    font-weight: 500px;  
+}
+#submit{
+    width: 100px;
+    border-radius: 8px;
+    margin: 35px 0 25px 0;
+    font-size: 14px;
+    background-color: rgb(111, 216, 122);
+    padding: 5px;
+}
+#result{
+    font-size: 27px;
+}
